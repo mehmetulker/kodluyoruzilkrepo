@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asian Kitchen</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Zilla+Slab&display=swap" rel="stylesheet" />
+  <!-- Boostrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <section class="menu">
+      <!-- title -->
+      <div class="title">
+        <h2>Asian Kitchen's Menu</h2>
+      </div>
+      <!-- filter buttons-->
+      <div class="btn-container">
+        <button onclick="showData('')" class="btn btn-outline-dark btn-item" data-id="All">All</button>
+        <button onclick="showData('Korea')" class="btn btn-outline-dark btn-item" data-id="Korea">Korea</button>
+        <button onclick="showData('Japan')" class="btn btn-outline-dark btn-item" data-id="Japan">Japan</button>
+        <button onclick="showData('China')" class="btn btn-outline-dark btn-item" data-id="China">China</button>
+      </div>
+      <!-- menu items -->
+      <div class="section-center row">
+
+        <!-- products - start-->
+        <div id="menu" class="row mt-3 ">
+          <!-- <div class="col-sm-4">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/18/400/300"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Urun 1</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">İncele</a>
+            </div>
+          </div>
+        </div> -->
+
+        </div>
+
+        <!-- product - end -->
+
+        <!-- single-item -->
+
+        <!-- end of single item -->
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </div>
+
+</body>
+
+</html>
